@@ -1,113 +1,113 @@
 [[Librsvg]]
+arch = "i686"
+git-tree-sha1 = "2088dd768469803ff806c9fcb48af6abeb013fb7"
+libc = "musl"
+os = "linux"
+
+    [[Librsvg.download]]
+    sha256 = "ebd45bd9a273231cb4530d0a417ac9b34e9c2c9e73bade64a83860cb5e014fe0"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.i686-linux-musl.tar.gz"
+[[Librsvg]]
+arch = "aarch64"
+git-tree-sha1 = "70475f6651af75ed5139d19fa6852f57c1b97fe4"
+libc = "musl"
+os = "linux"
+
+    [[Librsvg.download]]
+    sha256 = "05e0655c2308d75cfd92f3df1c4918c4d69b79a143bf438bb65fa8a2877c1871"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.aarch64-linux-musl.tar.gz"
+[[Librsvg]]
+arch = "i686"
+git-tree-sha1 = "0689b1fa3ca29a77b97187a9fdd3b0a63da24297"
+os = "windows"
+
+    [[Librsvg.download]]
+    sha256 = "af7742ef2c160156a59b096a2240d9787007334c76c0fe0f39a691184066d415"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.i686-w64-mingw32.tar.gz"
+[[Librsvg]]
 arch = "x86_64"
-git-tree-sha1 = "869ae9fa1eef0174fc07abc4625c4bd039cefff4"
+git-tree-sha1 = "35cf04f64cca32846d239d589e943e018ee5a3ed"
+os = "windows"
+
+    [[Librsvg.download]]
+    sha256 = "0d4c18e2094281ec86ed99218eac20a9c4b8295215015a997e9ab9f62ea614f8"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.x86_64-w64-mingw32.tar.gz"
+[[Librsvg]]
+arch = "armv7l"
+git-tree-sha1 = "8b3d14ee8d930d680f1d1cf9909b024b723d0525"
+libc = "glibc"
+os = "linux"
+
+    [[Librsvg.download]]
+    sha256 = "c534c37ec206509b31572c6af8e6e5e5b9f3d8c94ba534058b93831812ae7f73"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.armv7l-linux-gnueabihf.tar.gz"
+[[Librsvg]]
+arch = "armv7l"
+git-tree-sha1 = "6e9aca498508387179d1c036b1345c628a3a8271"
+libc = "musl"
+os = "linux"
+
+    [[Librsvg.download]]
+    sha256 = "ed5ca029dbe53d6d54cf4d9a2467e36b5b6d4de16e9af30aa9866218c808306d"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.armv7l-linux-musleabihf.tar.gz"
+[[Librsvg]]
+arch = "i686"
+git-tree-sha1 = "301fd4c3fc6d707dda2a3ad82d1ae42f9299dfac"
+libc = "glibc"
+os = "linux"
+
+    [[Librsvg.download]]
+    sha256 = "0da4298242edb4a7b1ccdda7bebda6ce456386d5ab399d9491729a031d8d265a"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.i686-linux-gnu.tar.gz"
+[[Librsvg]]
+arch = "x86_64"
+git-tree-sha1 = "73c0427dcde79c56e06fcd46d8525569875cef0c"
+libc = "glibc"
+os = "linux"
+
+    [[Librsvg.download]]
+    sha256 = "02e93c6e29a5f38b069590166e4062eb6425f8dbc9ec0974e805edae3ca23d4c"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.x86_64-linux-gnu.tar.gz"
+[[Librsvg]]
+arch = "powerpc64le"
+git-tree-sha1 = "b06db68383c4f2dd8d34a9a102649962df4ccad7"
+libc = "glibc"
+os = "linux"
+
+    [[Librsvg.download]]
+    sha256 = "49c2238e6aa846c42ea37dc000d11ebafb045157214e305ec3d5966a93d37b3c"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.powerpc64le-linux-gnu.tar.gz"
+[[Librsvg]]
+arch = "x86_64"
+git-tree-sha1 = "6bc49a72bf74f42d2fcb5572b14767a379509a9a"
 os = "macos"
 
     [[Librsvg.download]]
-    sha256 = "34b54d5df4880bba46318130970eb57efec3aa39ae03fc99c45af1717b559dad"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.x86_64-apple-darwin14.tar.gz"
+    sha256 = "0d5dd871b8d0242288ed355aad57e9650feb00691d37e41e7823dad8309cc3d0"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.x86_64-apple-darwin14.tar.gz"
 [[Librsvg]]
-arch = "i686"
-git-tree-sha1 = "f89722ead93543c4c423a0090537d0cea76f2916"
+arch = "aarch64"
+git-tree-sha1 = "f9c4bf7165fe4cc8eb67b752b51bfe5d993a5e8d"
 libc = "glibc"
 os = "linux"
 
     [[Librsvg.download]]
-    sha256 = "cae92fc9098dfe572555d7eb541204e5043aeb8fbfbace803daffcd7959f798d"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.i686-linux-gnu.tar.gz"
+    sha256 = "0d06b353ed4e7d9af11f58493ae651e47839dd6404118e0a3f7b7f1898f814fc"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.aarch64-linux-gnu.tar.gz"
 [[Librsvg]]
 arch = "x86_64"
-git-tree-sha1 = "dac19c73ac351c49d90fe1e9bf940aadc5788746"
+git-tree-sha1 = "07167d7a832fb8803978a23cbde0902e2d2560a1"
 os = "freebsd"
 
     [[Librsvg.download]]
-    sha256 = "dcb217c30e0732cee46d796ca58e22e49ca8b87b1b0fd64b9ddbea5037273e7a"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.x86_64-unknown-freebsd11.1.tar.gz"
-[[Librsvg]]
-arch = "powerpc64le"
-git-tree-sha1 = "7fb44200edcd21692dfe23324c78ca3d6e5acba1"
-libc = "glibc"
-os = "linux"
-
-    [[Librsvg.download]]
-    sha256 = "af61020f2fd5b0dc46aec22ec4cb76c81af2051a4fe7f35be60cf516fea5671b"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "9eb504e33ee5102905b52e878beac19ad66aed99b7e0d662200b01064407fa99"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.x86_64-unknown-freebsd11.1.tar.gz"
 [[Librsvg]]
 arch = "x86_64"
-git-tree-sha1 = "1773ded33d1d0318f5bad7a74dc8f6699d0e9151"
+git-tree-sha1 = "25646412e135cc14b876095938c9b337f76df559"
 libc = "musl"
 os = "linux"
 
     [[Librsvg.download]]
-    sha256 = "5a59feef0857031ba4f6c50e8e54c8b79f32502cc480dd79f6b627b67f1f2370"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.x86_64-linux-musl.tar.gz"
-[[Librsvg]]
-arch = "x86_64"
-git-tree-sha1 = "78938d6dc90e896dbc013cfeadfe012c532b173e"
-libc = "glibc"
-os = "linux"
-
-    [[Librsvg.download]]
-    sha256 = "851d040f04c7efd65c32b6a95974998005b698441d219880c51c89496581a62f"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.x86_64-linux-gnu.tar.gz"
-[[Librsvg]]
-arch = "x86_64"
-git-tree-sha1 = "26a30e37453b9e22bcce3a8c00dd7ab91d0bed45"
-os = "windows"
-
-    [[Librsvg.download]]
-    sha256 = "0416369d88181931365ec67b169ba2dab6166a1944eb68dd09512b7f2516a79d"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.x86_64-w64-mingw32.tar.gz"
-[[Librsvg]]
-arch = "aarch64"
-git-tree-sha1 = "0cd8a6f1d38b501a19746549425f08694fa3ea19"
-libc = "musl"
-os = "linux"
-
-    [[Librsvg.download]]
-    sha256 = "c0966693ad19919495da96dc5bcef68b626a5bad0d291cc399358e81ec46b776"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.aarch64-linux-musl.tar.gz"
-[[Librsvg]]
-arch = "armv7l"
-git-tree-sha1 = "c0befc6430d18ddd16507a1cb736558f894d49c2"
-libc = "glibc"
-os = "linux"
-
-    [[Librsvg.download]]
-    sha256 = "c8c2f4266bd01327672baeb0926ccdd2f32dd26a7d89d340e815b8b68ff3db5a"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.arm-linux-gnueabihf.tar.gz"
-[[Librsvg]]
-arch = "i686"
-git-tree-sha1 = "a77965774530965ecc42778de69a5c9cd1ec516c"
-libc = "musl"
-os = "linux"
-
-    [[Librsvg.download]]
-    sha256 = "5d1304b294399852470c2683e4ecd56977f7f9d9304ae7d19c4ffdec02403e60"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.i686-linux-musl.tar.gz"
-[[Librsvg]]
-arch = "armv7l"
-git-tree-sha1 = "53d58b0de2db9fb0540c109450c655ab33649fee"
-libc = "musl"
-os = "linux"
-
-    [[Librsvg.download]]
-    sha256 = "a56d300cdb30f5af695aa86e3919ef055561bfab7c2ef2801689c3557a4e40a2"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.arm-linux-musleabihf.tar.gz"
-[[Librsvg]]
-arch = "aarch64"
-git-tree-sha1 = "2fd32252d6223e4badef1e70a596416d04c61378"
-libc = "glibc"
-os = "linux"
-
-    [[Librsvg.download]]
-    sha256 = "c59e8bf9ef3ff9e7f5c39c3c67ac7b64918481971bb93633bb0b52629c377c62"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.aarch64-linux-gnu.tar.gz"
-[[Librsvg]]
-arch = "i686"
-git-tree-sha1 = "37cf617f441205910d3dff0b26e4281cb7c2c45d"
-os = "windows"
-
-    [[Librsvg.download]]
-    sha256 = "15cee35b116f30526c1f18260f645ef7a1f8b4c35ad8ea2b9b3e1d537659b3e1"
-    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+0/Librsvg.v2.42.2.i686-w64-mingw32.tar.gz"
+    sha256 = "ca88789fd11aa78045c225f7b48aaa108363f950d833a35c10b642537cddc1cf"
+    url = "https://github.com/JuliaBinaryWrappers/Librsvg_jll.jl/releases/download/Librsvg-v2.42.2+1/Librsvg.v2.42.2.x86_64-linux-musl.tar.gz"
