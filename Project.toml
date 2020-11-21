@@ -1,6 +1,6 @@
 name = "Librsvg_jll"
 uuid = "925c91fb-5dd6-59dd-8e8c-345e74382d89"
-version = "2.42.2+2"
+version = "2.42.2+3"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
