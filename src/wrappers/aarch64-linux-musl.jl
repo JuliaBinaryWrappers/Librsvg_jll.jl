@@ -3,12 +3,16 @@ export libpixbufloader_svg, librsvg, rsvg_convert
 
 using gdk_pixbuf_jll
 using Pango_jll
+using Cairo_jll
+using FreeType2_jll
+using Glib_jll
+using XML2_jll
 JLLWrappers.@generate_wrapper_header("Librsvg")
 JLLWrappers.@declare_file_product(libpixbufloader_svg)
 JLLWrappers.@declare_library_product(librsvg, "librsvg-2.so.2")
 JLLWrappers.@declare_executable_product(rsvg_convert)
 function __init__()
-    JLLWrappers.@generate_init_header(gdk_pixbuf_jll, Pango_jll)
+    JLLWrappers.@generate_init_header(gdk_pixbuf_jll, Pango_jll, Cairo_jll, FreeType2_jll, Glib_jll, XML2_jll)
     JLLWrappers.@init_file_product(
         libpixbufloader_svg,
         "lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so",
